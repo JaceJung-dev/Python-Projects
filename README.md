@@ -6,3 +6,4 @@
 - [Blackjack](https://github.com/JaceJung-dev/Python-Projects/tree/main/Blackjack)
 - [Number Guessing](https://github.com/JaceJung-dev/Python-Projects/tree/main/Number_guessing)
 - [Higher Lower](https://github.com/JaceJung-dev/Python-Projects/tree/main/Higher_lower)
+- [Coffee Machine](https://github.com/JaceJung-dev/Python-Projects/tree/main/Coffee_machine)
