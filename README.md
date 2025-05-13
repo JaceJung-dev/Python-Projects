@@ -8,3 +8,4 @@
 - [Higher Lower](https://github.com/JaceJung-dev/Python-Projects/tree/main/Higher_lower)
 - [Coffee Machine](https://github.com/JaceJung-dev/Python-Projects/tree/main/Coffee_machine)
 - [Coffee Machine (OOP)](https://github.com/JaceJung-dev/Python-Projects/tree/main/Coffee_machine_OOP)
+- [Quiz Game](https://github.com/JaceJung-dev/Python-Projects/tree/main/Quiz_game)
