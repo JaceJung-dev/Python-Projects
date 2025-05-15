@@ -10,3 +10,4 @@
 - [Coffee Machine (OOP)](https://github.com/JaceJung-dev/Python-Projects/tree/main/Coffee_machine_OOP)
 - [Quiz Game](https://github.com/JaceJung-dev/Python-Projects/tree/main/Quiz_game)
 - [Hirst Painting](https://github.com/JaceJung-dev/Python-Projects/tree/main/Hirst_painting)
+- [Turtle Race](https://github.com/JaceJung-dev/Python-Projects/tree/main/Turtle_race)
