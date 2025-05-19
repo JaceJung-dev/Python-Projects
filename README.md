@@ -11,4 +11,4 @@
 - [Quiz Game](https://github.com/JaceJung-dev/Python-Projects/tree/main/Quiz_game)
 - [Hirst Painting](https://github.com/JaceJung-dev/Python-Projects/tree/main/Hirst_painting)
 - [Turtle Race](https://github.com/JaceJung-dev/Python-Projects/tree/main/Turtle_race)
-- [Snake Game (In progress)](https://github.com/JaceJung-dev/Python-Projects/tree/main/Snake_game)
+- [Snake Game](https://github.com/JaceJung-dev/Python-Projects/tree/main/Snake_game)
