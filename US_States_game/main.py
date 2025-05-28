@@ -21,6 +21,7 @@ while len(guessed_list) < 50:
     ).title()
 
     if answer_state == "Exit":
+        # missing_states = [state for state in all_states if state not in guessed_list]
         all_states_set = set(all_states)
         guessed_states_set = set(guessed_list)
         missing_states_set = all_states_set - guessed_states_set
