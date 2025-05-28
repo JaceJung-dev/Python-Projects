@@ -1,7 +1,7 @@
 # Python-Projects
 
-## Beginner
-- [Hangman](https://github.com/JaceJung-dev/Python-Projects/tree/main/Hangman)
+## 🌱 Beginner
+- [Hangman](https://github.com/JaceJung-dev/Python-Projects/tree/main/Hangman)<br>
 - [Caesar Cipher](https://github.com/JaceJung-dev/Python-Projects/tree/main/Caesar_cipher)
 - [Blind Auction](https://github.com/JaceJung-dev/Python-Projects/tree/main/Blind_auction)
 - [Basic Calculator](https://github.com/JaceJung-dev/Python-Projects/tree/main/Calculator)
@@ -9,7 +9,7 @@
 - [Number Guessing](https://github.com/JaceJung-dev/Python-Projects/tree/main/Number_guessing)
 - [Higher Lower](https://github.com/JaceJung-dev/Python-Projects/tree/main/Higher_lower)
 
-## Intermediate
+## 🚀 Intermediate
 - [Coffee Machine](https://github.com/JaceJung-dev/Python-Projects/tree/main/Coffee_machine)
 - [Coffee Machine (OOP)](https://github.com/JaceJung-dev/Python-Projects/tree/main/Coffee_machine_OOP)
 - [Quiz Game](https://github.com/JaceJung-dev/Python-Projects/tree/main/Quiz_game)
