@@ -20,3 +20,4 @@
 - [Turtle Crossing](https://github.com/JaceJung-dev/Python-Projects/tree/main/Turtle_crossing)
 - [Mail Merge](https://github.com/JaceJung-dev/Python-Projects/tree/main/Mail_merge)
 - [U.S. States Game](https://github.com/JaceJung-dev/Python-Projects/tree/main/US_States_game)
+- [NATO Phonetic Alphabet](https://github.com/JaceJung-dev/Python-Projects/tree/main/NATO_phonetic_alphabet)
