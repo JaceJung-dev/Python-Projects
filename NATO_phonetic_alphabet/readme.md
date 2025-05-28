@@ -6,6 +6,27 @@
 - How to loop through data in a Pandas DataFrame
 
 ## Code Example in Action
+### List comprehension
+```python
+# newlist = [expression for item in iterable if condition == True]
+students = ["Eli", "Jace", "Grace", "Nathan", "Isabella", "Christopher"]
+short_name_students = [name for name in students if len(name) < 6]
+print(short_name_students)
+```
+```
+['Eli', 'Jace', 'Grace']
+```
+### Dictionary comprehension
+```python
+# new_dict = {key: value for vars in iterable}
+temperature_c = {"Monday": 12, "Tuesday": 14, "Wednesday": 15, "Thursday": 14, "Friday": 21, "Saturday": 22, "Sunday": 24}
+temperature_f = {key: (value * 9/5) + 32 for (key, value) in temperature_c.items()}
+print(temperature_f) 
+```
+```
+{'Monday': 53.6, 'Tuesday': 57.2, 'Wednesday': 59.0, 'Thursday': 57.2, 'Friday': 69.8, 'Saturday': 71.6, 'Sunday': 75.2}
+```
+### Looping
 Sample data:
 ```python
 import pandas as pd
