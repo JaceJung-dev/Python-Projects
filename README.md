@@ -23,3 +23,4 @@
 - [NATO Phonetic Alphabet](https://github.com/JaceJung-dev/Python-Projects/tree/main/NATO_phonetic_alphabet)
 - [Miles to Kilometer Converter](https://github.com/JaceJung-dev/Python-Projects/tree/main/Miles_to_kilometers)
 - [Pomodoro Timer](https://github.com/JaceJung-dev/Python-Projects/tree/main/Pomodoro)
+- [Password Manager](https://github.com/JaceJung-dev/Python-Projects/tree/main/Password_manager)
