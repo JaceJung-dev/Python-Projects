@@ -1,3 +1,4 @@
+import json
 import os
 import pyperclip
 from random import choice, randint, shuffle
@@ -98,11 +99,53 @@ def save():
         )
 
         if is_ok:
-            data = f"{website} | {username} | {password}\n"
-            with open(f"{BASEDIR}/data.txt", mode="a") as file:
-                file.write(data)
-            website_entry.delete(0, END)
-            password_entry.delete(0, END)
+            new_data = {
+                website: {
+                    "username": username,
+                    "password": password,
+                }
+            }
+
+            try:
+                with open(f"{BASEDIR}/data.json", mode="r") as file:
+                    # Reading old data
+                    save_data = json.load(file)
+            except FileNotFoundError:
+                with open(f"{BASEDIR}/data.json", mode="w") as file:
+                    json.dump(new_data, file, indent=4)
+            else:
+                # Updating old data with new data.
+                save_data.update(new_data)
+
+                with open(f"{BASEDIR}/data.json", mode="w") as file:
+                    # Saving updated data
+                    json.dump(save_data, file, indent=4)
+            finally:
+                website_entry.delete(0, END)
+                password_entry.delete(0, END)
+
+
+# ---------------------------- SEARCH DATA ------------------------------- #
+def search_data():
+    website = website_entry.get()
+
+    try:
+        with open(f"{BASEDIR}/data.json", mode="r") as file:
+            save_data = json.load(file)
+    except FileNotFoundError:
+        messagebox.showinfo(title="Error", message="No Data File Found.")
+    else:
+        if website in save_data:
+            username = save_data[website]["username"]
+            password = save_data[website]["password"]
+
+            messagebox.showinfo(
+                title="Error", message=f"Username: {username} \n\nPassword: {password}"
+            )
+        else:
+            messagebox.showinfo(
+                title="Error", message=f"No details for the {website} exist."
+            )
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -139,8 +182,17 @@ password_entry = Entry(width=21)
 password_entry.grid(row=3, column=1)
 
 # Button
+search_button = Button(
+    text="Search", command=search_data, highlightthickness=0, borderwidth=0, width=13
+)
+search_button.grid(row=1, column=2)
+
 generate_pw_button = Button(
-    text="Generate Password", command=generate_pw, highlightthickness=0, borderwidth=0
+    text="Generate Password",
+    command=generate_pw,
+    highlightthickness=0,
+    borderwidth=0,
+    width=13,
 )
 generate_pw_button.grid(row=3, column=2)
 
