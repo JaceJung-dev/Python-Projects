@@ -24,3 +24,4 @@
 - [Miles to Kilometer Converter](https://github.com/JaceJung-dev/Python-Projects/tree/main/Miles_to_kilometers)
 - [Pomodoro Timer](https://github.com/JaceJung-dev/Python-Projects/tree/main/Pomodoro)
 - [Password Manager](https://github.com/JaceJung-dev/Python-Projects/tree/main/Password_manager)
+- [Flash Card](https://github.com/JaceJung-dev/Python-Projects/tree/main/Flash_card)
