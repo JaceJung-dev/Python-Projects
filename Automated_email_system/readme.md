@@ -31,7 +31,7 @@ with smtplib.SMTP("smtp.gmail.com") as connection:
                         msg="Subject:Title\n\nThis is the body of my email.")
 ```
 
-### `datatime`
+### `datetime`
 ```python
 import datetime as dt
 
