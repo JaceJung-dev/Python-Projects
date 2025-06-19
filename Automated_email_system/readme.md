@@ -5,7 +5,7 @@
 - How to manage dates and time with `datetime` module.
 - Gained experience using `defaultdict` from `collections` module ot organize data efficiently.
 
-# What I did
+## What I did
 - Implemented automated Monday motivation email send every week.
 - Developed a feature to send birthday wishes to friends automatically via email.
 
