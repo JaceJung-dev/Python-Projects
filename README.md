@@ -27,3 +27,4 @@
 - [Flash Card](https://github.com/JaceJung-dev/Python-Projects/tree/main/Flash_card)
 - [Automated Email System](https://github.com/JaceJung-dev/Python-Projects/tree/main/Automated_email_system)
 - [ISS Overhead Notification](https://github.com/JaceJung-dev/Python-Projects/tree/main/ISS_overhead_notification)
+- [GUI Quiz Game](https://github.com/JaceJung-dev/Python-Projects/tree/main/GUI_quiz_game)
