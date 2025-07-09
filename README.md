@@ -33,3 +33,4 @@
 - [Weather Forcast Application](https://github.com/JaceJung-dev/Python-Projects/tree/main/Weather_forcast)
 - [Stock Trading News](https://github.com/JaceJung-dev/Python-Projects/tree/main/Stock_trading_news)
 - [Habit Tracker](https://github.com/JaceJung-dev/Python-Projects/tree/main/Habit_tracker)
+- [Exercise Tracker](https://github.com/JaceJung-dev/Python-Projects/tree/main/Exercise_tracker)
